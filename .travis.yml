@@ -10,3 +10,5 @@ script:
   - coverage run $(which pytest) tests
 after_success:
   - COVERALLS_REPO_TOKEN=nbfEAjpm9IWcsU37pyGCCjf0gDIjOHY3w coveralls
+notifications:
+  slack: huy-me:BCHLlgc9Af0IiZUW7PZfQgF4
