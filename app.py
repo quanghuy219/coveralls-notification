@@ -10,4 +10,4 @@ def hello_world():
 
 @app.route('/hello', methods=['GET'])
 def hello():
-    return 'Hello'
+    return 'Hi there'
